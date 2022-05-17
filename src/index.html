@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascentic Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+</head>
+
+<body class="font-dm-sans">
+    <header>
+        <nav class="bg-white">
+            <div class="max-w-screen-2xl mx-auto px-6">
+                <div class="relative flex items-center justify-between h-16">
+                    <div class="absolute inset-y-0 left-0 flex items-center md:hidden">
+                        <!-- Mobile menu button-->
+                        <button type="button"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                            aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+
+                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex-1 flex items-center justify-center md:items-center md:justify-start">
+                        <div class="flex-shrink-0 flex items-center">
+                            <img class="block lg:hidden h-4 w-auto" src="./assets/img/scribble.svg" alt="Scribble">
+                            <img class="hidden lg:block h-5 w-auto" src="./assets/img/scribble.svg" alt="Workflow">
+                        </div>
+                        <div class="hidden md:block md:ml-6">
+                            <div class="flex space-x-4">
+
+                                <a href="#"
+                                    class="text-gray-500 hover:text-dark-blue px-3 py-2 rounded-md transition-all"
+                                    aria-current="page">Get Inspired</a>
+
+                                <a href="#"
+                                    class="text-gray-500 hover:text-dark-blue px-3 py-2 rounded-md transition-all">Find
+                                    Job</a>
+
+                                <a href="#"
+                                    class="text-gray-500 hover:text-dark-blue px-3 py-2 rounded-md transition-all">Hire
+                                    Talents</a>
+
+                                <a href="#"
+                                    class="text-gray-500 hover:text-dark-blue px-3 py-2 rounded-md transition-all">Go
+                                    Pro</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute inset-y-0 right-0 flex space-x-3 items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0">
+                        <a href="#" class="px-5 py-2 rounded-md text-gray-500">
+                            Sign in
+                        </a>
+
+                        <a href="#"
+                            class="px-5 py-2 hidden lg:block rounded-md bg-violet-600 text-white hover:bg-violet-500 transition-all">
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <!-- <div class="sm:hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                  
+                    <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                        aria-current="page">Dashboard</a>
+
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+                </div>
+            </div> -->
+        </nav>
+    </header>
+    <main>
+        <section class="bg-[#F1D6B9] px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto">
+                <div class="py-10 md:py:12 lg:py-20 xl:py-32">
+                    <div class="text-center md:text-left">
+                        <h1 class="text-3xl lg:!leading-[3rem] font-bold text-dark-blue lg:text-4xl">
+                            Experience thousands of<br>world’s best talents in designing
+                        </h1>
+                        <p class="mt-5 text-base text-dark-blue sm:max-w-md sm:mx-auto lg:mx-0">
+                            We’re on a mission to build the world’s best community for creatives to share, grow, and get
+                            hired.</p>
+                        <div class="mt-8 sm:flex justify-center md:justify-start">
+                            <a href="#"
+                                class="px-5 py-2 rounded-md bg-violet-600 text-white hover:bg-violet-500 transition-all">
+                                Sign Up
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=" row-start-1 md:row-auto">
+                    <figure class="relative">
+                        <img class="h-56 w-full object-contain mt-8 md:mt-0 sm:h-72 md:h-96 lg:h-full"
+                            src="./assets/img/header-img.png" alt="header image">
+                        <figcaption class="relative md:absolute md:right-0 md:bottom-3 text-dark-blue text-xs text-center mt-4 md:mt-0">Art by <a
+                                class="text-violet-600 hover:underline transition-all" href="#">tubik.arts</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="pt-10 pb-40 bg-stone-50 px-6">
+            <div class="max-w-screen-xl mx-auto">
+                <div class="flex justify-between flex-wrap">
+                    <div class="hidden md:flex w-80 lg:w-[30rem]">
+                        <div class="input-group relative flex flex-wrap items-stretch w-full">
+                            <input type="search"
+                                class="form-control flex-grow pl-12 pr-36 py-2.5 text-dark-blue bg-white border border-solid border-gray-200 !rounded-md focus:border-gray-300 focus:outline-none !z-0 !shadow-none"
+                                aria-label="Search" aria-describedby="button-addon2">
+                            <button class="absolute left-3 top-3 text-gray-300 font-medium" type="button"
+                                id="button-addon2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </button>
+
+                            <div class="dropdown absolute right-0 top-[0.3rem] border-l-[1px] border-gray-200 w-32">
+                                <button class="dropdown-toggle px-6 py-1.5 bg-transparent text-dark-blue flex items-center whitespace-nowrap
+                            " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Projects
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 fill-dark-blue"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu w-32 absolute hidden bg-white z-50 float-left py-2 list-none text-left rounded-lg shadow-lg !mt-2"
+                                    aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <a class="dropdown-item text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent text-gray-500 hover:bg-gray-100"
+                                            href="#">All</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item font-medium text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent text-dark-blue"
+                                            href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent text-gray-500 hover:bg-gray-100"
+                                            href="#">Images</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent text-gray-500 hover:bg-gray-100"
+                                            href="#">Prototypes</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent text-gray-500 hover:bg-gray-100"
+                                            href="#">Animations</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent text-gray-500 hover:bg-gray-100"
+                                            href="#">Typography</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-grow md:flex-grow-0 flex justify-between md:space-x-3">
+                        <button
+                            class="flex items-center text-dark-blue space-x-3 px-3 sm:px-6 py-3 ring-1 ring-gray-200 hover:ring-gray-300 transition-all rounded-md">
+                            <span>Filters</span>
+                            <svg class="w-3 h-4 fill-dark-blue" viewBox="0 0 10 8" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 .75A.75.75 0 0 1 .75 0h8.5a.75.75 0 1 1 0 1.5H.75A.75.75 0 0 1 0 .75Zm2 3A.75.75 0 0 1 2.75 3h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 2 3.75ZM4.25 6a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z"
+                                    fill-rule="evenodd" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <button
+                            class="flex items-center text-dark-blue space-x-3 px-3 sm:px-6 py-3 ring-1 ring-gray-200 hover:ring-gray-300 transition-all rounded-md">
+                            <span>Recommended</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 fill-dark-blue"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 xl:gap-7 mt-14">
+                    <div class="w-full flex flex-col items-center">
+                        <div class="relative w-full">
+                            <img class="w-full aspect-[4/3] rounded-lg object-cover" src="./assets/img/img-1.png" alt="">
+                            <a href="#" class="peer absolute inset-0 z-10 aspect-[4/3] rounded-lg opacity-0">See more</a>
+                            <div
+                                class="absolute h-20 w-full left-0 bottom-0 right-0 z-20 aspect-[4/3] rounded-lg flex justify-center items-end space-x-4 bg-button-bg-gradient opacity-0 peer-hover:opacity-100 hover:opacity-100 transition duration-300 ease-in-out">
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between w-full mt-3">
+                            <div class="flex-grow pr-5">
+                                <p class="text-dark-blue font-bold text-ellipsis">Keep Creating</p>
+                                <a class="text-dark-blue hover:text-violet-600 transition-all"
+                                    href="#">theosm&trade;</a>
+                            </div>
+                            <div class="flex space-x-4 pt-1">
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 fill-slate-400 relative bottom-[1px]" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">257</span>
+                                </div>
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-slate-400"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">1.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div class="relative w-full">
+                            <img class="w-full aspect-[4/3] rounded-lg object-cover" src="./assets/img/img-2.png" alt="">
+                            <a href="#" class="peer absolute inset-0 z-10 aspect-[4/3] rounded-lg opacity-0">See more</a>
+                            <div
+                                class="absolute h-20 w-full left-0 bottom-0 right-0 z-20 pb-7 aspect-[4/3] rounded-lg flex justify-center items-end space-x-4 bg-button-bg-gradient opacity-0 peer-hover:opacity-100 hover:opacity-100 transition duration-300 ease-in-out">
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-full flex justify-between mt-3">
+                            <div class="flex-grow pr-5">
+                                <p class="text-dark-blue font-bold text-ellipsis">Keep Creating</p>
+                                <a class="text-dark-blue hover:text-violet-600 transition-all"
+                                    href="#">theosm&trade;</a>
+                            </div>
+                            <div class="flex space-x-4 pt-1">
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 fill-slate-400 relative bottom-[1px]" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">257</span>
+                                </div>
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-slate-400"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">1.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div class="relative w-full">
+                            <img class="w-full aspect-[4/3] rounded-lg object-cover" src="./assets/img/img-3.png" alt="">
+                            <a href="#" class="peer absolute inset-0 z-10 aspect-[4/3] rounded-lg opacity-0">See more</a>
+                            <div
+                                class="absolute h-20 w-full left-0 bottom-0 right-0 z-20 aspect-[4/3] rounded-lg flex justify-center items-end space-x-4 bg-button-bg-gradient opacity-0 peer-hover:opacity-100 hover:opacity-100 transition duration-300 ease-in-out">
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-full flex justify-between mt-3">
+                            <div class="flex-grow pr-5">
+                                <p class="text-dark-blue font-bold text-ellipsis">Keep Creating</p>
+                                <a class="text-dark-blue hover:text-violet-600 transition-all"
+                                    href="#">theosm&trade;</a>
+                            </div>
+                            <div class="flex space-x-4 pt-1">
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 fill-slate-400 relative bottom-[1px]" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">257</span>
+                                </div>
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-slate-400"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">1.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div class="w-full relative">
+                            <img class="w-full aspect-[4/3] rounded-lg object-cover" src="./assets/img/img-4.png" alt="">
+                            <a href="#" class="peer absolute inset-0 z-10 aspect-[4/3] rounded-lg opacity-0">See more</a>
+                            <div
+                                class="absolute h-20 w-full left-0 bottom-0 right-0 z-20 aspect-[4/3] rounded-lg flex justify-center items-end space-x-4 bg-button-bg-gradient opacity-0 peer-hover:opacity-100 hover:opacity-100 transition duration-300 ease-in-out">
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-full flex justify-between mt-3">
+                            <div class="flex-grow pr-5">
+                                <p class="text-dark-blue font-bold text-ellipsis">Keep Creating</p>
+                                <a class="text-dark-blue hover:text-violet-600 transition-all"
+                                    href="#">theosm&trade;</a>
+                            </div>
+                            <div class="flex space-x-4 pt-1">
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 fill-slate-400 relative bottom-[1px]" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">257</span>
+                                </div>
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-slate-400"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">1.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div class="w-full relative">
+                            <img class="w-full aspect-[4/3] rounded-lg object-cover" src="./assets/img/img-5.png" alt="">
+                            <a href="#" class="peer absolute inset-0 z-10 aspect-[4/3] rounded-lg opacity-0">See more</a>
+                            <div
+                                class="absolute h-20 w-full left-0 bottom-0 right-0 z-20 aspect-[4/3] rounded-lg flex justify-center items-end space-x-4 bg-button-bg-gradient opacity-0 peer-hover:opacity-100 hover:opacity-100 transition duration-300 ease-in-out">
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-full flex justify-between mt-3">
+                            <div class="flex-grow pr-5">
+                                <p class="text-dark-blue font-bold text-ellipsis">Keep Creating</p>
+                                <a class="text-dark-blue hover:text-violet-600 transition-all"
+                                    href="#">theosm&trade;</a>
+                            </div>
+                            <div class="flex space-x-4 pt-1">
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 fill-slate-400 relative bottom-[1px]" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">257</span>
+                                </div>
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-slate-400"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">1.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div class="w-full relative">
+                            <img class="w-full aspect-[4/3] rounded-lg object-cover" src="./assets/img/img-6.png" alt="">
+                            <a href="#" class="peer absolute inset-0 z-10 aspect-[4/3] rounded-lg opacity-0">See more</a>
+                            <div
+                                class="absolute h-20 w-full left-0 bottom-0 right-0 z-20 aspect-[4/3] rounded-lg flex justify-center items-end space-x-4 bg-button-bg-gradient opacity-0 peer-hover:opacity-100 hover:opacity-100 transition duration-300 ease-in-out">
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-full flex justify-between mt-3">
+                            <div class="flex-grow pr-5">
+                                <p class="text-dark-blue font-bold text-ellipsis">Keep Creating</p>
+                                <a class="text-dark-blue hover:text-violet-600 transition-all"
+                                    href="#">theosm&trade;</a>
+                            </div>
+                            <div class="flex space-x-4 pt-1">
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 fill-slate-400 relative bottom-[1px]" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">257</span>
+                                </div>
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-slate-400"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">1.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div class="w-full relative">
+                            <img class="w-full aspect-[4/3] rounded-lg object-cover" src="./assets/img/img-7.png" alt="">
+                            <a href="#" class="peer absolute inset-0 z-10 aspect-[4/3] rounded-lg opacity-0">See more</a>
+                            <div
+                                class="absolute h-20 w-full left-0 bottom-0 right-0 z-20 aspect-[4/3] rounded-lg flex justify-center items-end space-x-4 bg-button-bg-gradient opacity-0 peer-hover:opacity-100 hover:opacity-100 transition duration-300 ease-in-out">
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-full flex justify-between mt-3">
+                            <div class="flex-grow pr-5">
+                                <p class="text-dark-blue font-bold text-ellipsis">Keep Creating</p>
+                                <a class="text-dark-blue hover:text-violet-600 transition-all"
+                                    href="#">theosm&trade;</a>
+                            </div>
+                            <div class="flex space-x-4 pt-1">
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 fill-slate-400 relative bottom-[1px]" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">257</span>
+                                </div>
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-slate-400"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">1.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div class="w-full relative">
+                            <img class="w-full aspect-[4/3] rounded-lg object-cover" src="./assets/img/img-8.png" alt="">
+                            <a href="#" class="peer absolute inset-0 z-10 aspect-[4/3] rounded-lg opacity-0">See more</a>
+                            <div
+                                class="absolute h-20 w-full left-0 bottom-0 right-0 z-20 aspect-[4/3] rounded-lg flex justify-center items-end space-x-4 bg-button-bg-gradient opacity-0 peer-hover:opacity-100 hover:opacity-100 transition duration-300 ease-in-out">
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="w-10 h-10 rounded-md bg-slate-100/60 text-gray-600 hover:bg-slate-100 transition-all flex justify-center items-center mb-7">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-full flex justify-between mt-3">
+                            <div class="flex-grow pr-5">
+                                <p class="text-dark-blue font-bold text-ellipsis">Keep Creating</p>
+                                <a class="text-dark-blue hover:text-violet-600 transition-all"
+                                    href="#">theosm&trade;</a>
+                            </div>
+                            <div class="flex space-x-4 pt-1">
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 fill-slate-400 relative bottom-[1px]" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">257</span>
+                                </div>
+                                <div class="flex space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-slate-400"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="font-medium text-xs text-dark-blue">1.8k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center mt-20">
+                    <button class="py-3 px-8 bg-violet-600/10 text-violet-600 hover:bg-violet-600/20 font-medium rounded-lg transition-all">Load more</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white py-6 px-6">
+        <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-between items-center">
+        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-3 items-center">
+            <img class=" h-5" src="./assets/img/scribble-violet.svg" alt="scribble logo violet">
+            <span class="text-gray-400 text-sm relative top-1">&copy; 2022 Scribble. All rights reserved.</span>
+        </div>
+        <nav>
+            <ul class="flex flex-col sm:flex-row text-center sm:text-left list-none space-y-3 sm:space-y-0 sm:space-x-6 mt-6 lg:mt-0">
+                <li class="text-sm text-dark-blue">
+                    <a class="font-normal" href="#">About</a>
+                </li>
+                <li class="text-sm text-dark-blue">
+                    <a href="font-normal">Careers</a>
+                </li>
+                <li class="text-sm text-dark-blue">
+                    <a href="font-normal">Support</a>
+                </li>
+                <li class="text-sm text-dark-blue">
+                    <a href="font-normal">Term of service</a>
+                </li>
+                <li class="text-sm text-dark-blue">
+                    <a href="font-normal">Privacy policy</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
